@@ -1,0 +1,46 @@
+
+
+.wrap {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: antiquewhite;
+    border: 2px black;   
+}
+    
+.two {
+    background-color: aquamarine;
+}
+
+.three {
+    background-color: burlywood;
+    
+}
+
+.four {
+    background-color: wheat;
+    
+}
+
+.five {
+    background-color: cadetblue;
+}
+
+.flex {
+    background-color: coral;
+    border: 1px solid red;
+
+}
+.noneflex {
+    flex: 1 1 auto;
+
+    margin-left: auto;
+}
